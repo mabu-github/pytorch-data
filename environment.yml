@@ -1,0 +1,9 @@
+name: pytorch-data
+channels:
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pip>=22.2.2,<23
+  - pip:
+    - -r requirements.txt
