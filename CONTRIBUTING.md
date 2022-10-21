@@ -37,6 +37,8 @@ For question related to the usage of this library, please post a question on the
 
 ## Development installation
 
+todo: split into pure pip and conda, provide conda environment for contributor quick start
+
 ### Install PyTorch Nightly
 
 ```bash

@@ -1,0 +1,18 @@
+name: pytorch-data
+channels:
+  - pytorch-nightly
+  - defaults
+dependencies:
+  - python=3.9
+  - pip>=22.2.2,<23
+  - pytorch
+  - pre-commit
+  - pip:
+      - -r requirements.txt
+      - -r test/requirements.txt
+      - -r docs/requirements.txt
+      - flake8
+      - typing
+      - mypy
+      - pytest
+      - expecttest

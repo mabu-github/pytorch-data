@@ -48,6 +48,9 @@ f4d-deps
 docs/build
 docs/source/generated
 # pytorch-sphinx-theme gets installed here
+# todo: after setup py for dev, a folder src/pytorch-sphinx-theme is installed
+# todo: change checkout path OR add to gitignore
+src/pytorch-sphinx-theme
 docs/src
 
 # AWSSDK
