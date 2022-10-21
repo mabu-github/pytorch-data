@@ -56,6 +56,15 @@ extensions = [
     "sphinx.ext.doctest",
 ]
 
+# Common imports that should not be repeated in every doctest
+# doctest_global_setup = """
+# import torchdata
+# """
+
+# Do not execute standard reST doctest blocks so that documentation can
+# be successively migrated to sphinx's doctest directive.
+doctest_test_doctest_blocks = ""
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 
